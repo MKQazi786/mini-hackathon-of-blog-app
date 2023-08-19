@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(250, 230, 233);
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color:rgb(124, 31, 31);
+}
+
+button{
+    margin: 0.5rem;
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color:rgb(90, 31, 31);
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    font-size:large;
+    padding: 0.2rem; 
+    margin: 0.2rem; 
+}
