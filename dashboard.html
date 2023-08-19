@@ -10,8 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         <script type="module" src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app-compat.js"></script>
-        <script type="module" src="https://www.gstatic.com/firebasejs/10.2.0/firebase-auth.js"></script>
         <script type="module" src="https://www.gstatic.com/firebasejs/10.2.0/firebase-firestore-compat.js"></script>
+        <script type="module" src="https://www.gstatic.com/firebasejs/10.2.0/firebase-auth-compat.js"></script>
     <link rel="stylesheet" href="dashboard.css">
     
 </head>
@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <h2>Personal blogging app</h2>
-        <nav> <button class="logOut" onclick="signOut(event)">Logout</button> </nav>
+        <nav>  <button id="user"></button> <button class="logOut" onclick="signOut(event)">Logout</button> </nav>
     </header>
     <h1>Dashboard</h1>
     
@@ -34,17 +34,16 @@
 
     <div id="result" ></div>
     
-    <!-- <div id=""></div> -->
     
-    <!-- <footer>
+    <footer>
         &copy;Web and App Developer: <br> Muhammad Khubaib <br>
         <div class="icon">
             <a href="https://www.github.com/MKQazi786"><i class="bi bi-github"></i> </a>
             <a href="https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/"><i class="bi bi-linkedin"></i> </a>
             <a href="https://www.facebook.com/MKQazi786"><i class="bi bi-facebook"></i></a>
         </div>
-    </footer> -->
-    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="blogging.js"></script>
     
 </body>
